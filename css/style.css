@@ -1,0 +1,177 @@
+.anna{
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    height: 70%;
+    max-width: 2000px;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    font-size: 110px;
+    font-weight: 700;
+}
+
+.smaller-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sub-title {
+    font-size: 20px;
+}
+
+.eduler-img {
+    height: 100px;
+}
+
+.ordrslip-img {
+    height: 82px;
+    padding: 20px;
+}
+
+.edu-phone {
+    background-image: url("../img/ephone.png"); 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center; 
+    margin-top: -60px; 
+}
+
+
+.ordr-phone {
+    background-image: url("../img/ordr.png"); 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center; 
+    margin-top: -60px; 
+}
+
+.about-project {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.position {
+    font-size: 50px;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+}
+
+.appstore {
+    height: 200px;
+}
+
+.more-info {
+    margin-top: 60px;
+}
+
+.about-me {
+    padding-top: 100px;
+}
+
+.project-info {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.contact {
+    margin: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.i1 {
+    display: flex;
+    align-items: center;
+}
+
+.anna-img {
+    background-image: url("../img/annaingels.jpg"); 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.about-img {
+    padding: 0 !important;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fa {
+    height: 30px; 
+    color: #2c3e50; 
+}
+
+.fa:hover {
+    color: #fff;
+}
+  
+#fp-nav {
+    margin-top: -157px !important;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    border: 2px solid #fff;
+    border-radius: 24% !important;
+    background-color: transparent;
+}
+
+.rows {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columns {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.columns img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .columns {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .columns {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .anna-info {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+}
